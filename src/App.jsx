@@ -1,7 +1,20 @@
 import { useState, useEffect } from 'react';
 import './App.css';
+import cat from '/Users/sultana/Downloads/website/mywebsite/src/assets/cat.gif';
 
 function App() {
+
+  return (
+    <div>
+      <img class="catgif" src={cat} alt="Cat" />
+      <div class="container">
+        <p class="hello">Hello People</p>
+      </div>
+    </div>
+  );
+}
+
+  /*
   const [showAdditionalInfo, setShowAdditionalInfo] = useState(false);
 
   useEffect(() => {
@@ -37,5 +50,6 @@ function App() {
     </>
   );
 }
+*/
 
 export default App;

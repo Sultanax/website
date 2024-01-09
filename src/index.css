@@ -1,16 +1,38 @@
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
-
-  color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  background-color: #000000;
+}
 
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.container {display: inline-block; }
+
+.hello {
+  font-size: 50px;
+  letter-spacing: 10px;
+  font-family: Tektur;
+  border-right: 5px solid;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  animation:
+    typing 2s steps(12),
+    cursor .4s step-end infinite alternate;
+  align-items: center;
+  justify-content: center;
+}
+
+@keyframes cursor {
+  50% {border-color: transparent}
+}
+
+@keyframes typing {
+  from {width: 0}
+}
+
+.catgif {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: translateX(50px) translateY(-30px);
 }
 
 body {
@@ -22,9 +44,14 @@ body {
 }
 
 h1 {
-  font-family: 'Helvetica';
-  font-size: 100px;
+  font-family: "Tektur";
+  font-size: 50px;
   position: static;
   left: 100px;
   bottom: -400px;
+}
+
+@font-face {
+  font-family: Tektur;
+  src: url(assets/Tektur-VariableFont_wdth,wght.ttf);
 }
