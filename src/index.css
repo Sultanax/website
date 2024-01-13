@@ -124,3 +124,8 @@ p {
   font-family: Tektur;
   src: url(assets/Tektur-VariableFont_wdth,wght.ttf);
 }
+
+.ni-logo {
+  width:200px;
+  transform: translateX(-110px);
+}

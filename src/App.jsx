@@ -3,6 +3,7 @@ import './App.css';
 import cat from '/Users/sultana/Downloads/website/mywebsite/src/assets/cat.gif';
 import me from "../public/me.jpg"
 import sudoku from "/Users/sultana/Downloads/website/mywebsite/src/assets/sudoku.gif";
+import ni from "/Users/sultana/Downloads/website/mywebsite/src/assets/ni.png";
 
 function App() {
   const [isVisible, setIsVisible] = useState(true);
@@ -52,6 +53,24 @@ function App() {
               <img src={sudoku} className='projectgif'/> 
               <p>So many projects omg!</p>
             </div>
+          </div>
+          <div class="row">
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <h1>Research</h1>
+            <br></br>
+            <div class="column">
+              <img src={ni} class="ni-logo"/> 
+              <p>NeuroInference Labs</p>
+              <p>Led By Baihan Lin</p>
+            </div>
+            <div class="column">
+              <p>Led by Dr. Baihan Lin, Neuro Inference Labs conduct interdisciplinary and collaborative research in next-generation AI, human experience and neural interfaces.</p>
+            </div>
+
           </div>
           <div class="row">
             <br></br>
