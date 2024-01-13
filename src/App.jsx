@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
-import cat from '/Users/sultana/Downloads/website/mywebsite/src/assets/cat.gif';
+import cat from './assets/cat.gif';
 import me from "../public/me.jpg"
-import sudoku from "/Users/sultana/Downloads/website/mywebsite/src/assets/sudoku.gif";
-import ni from "/Users/sultana/Downloads/website/mywebsite/src/assets/ni.png";
+import sudoku from "./assets/sudoku.gif";
+import ni from "./assets/ni.png";
 
 function App() {
   const [isVisible, setIsVisible] = useState(true);
