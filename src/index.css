@@ -20,6 +20,39 @@
   justify-content: center;
 }
 
+.intro {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 50px;
+  font-family: Tektur;
+  width: 100%;
+  margin-bottom: 20%;
+  margin-top:12%;
+}
+
+.pic {
+  width: 400px;
+  clip-path: circle();
+}
+
+.projectgif {
+  width: 400px;
+  margin:20px;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
 @keyframes cursor {
   50% {border-color: transparent}
 }
@@ -47,8 +80,44 @@ h1 {
   font-family: "Tektur";
   font-size: 50px;
   position: static;
-  left: 100px;
   bottom: -400px;
+}
+#text{
+  padding-right: 150px;
+}
+
+h2 {
+  font-family: "Tektur";
+  font-size: 50px;
+  letter-spacing: 10px;
+}
+
+p {
+  font-family: 'Tektur';
+  font-size: 20px;  
+  text-align: left;
+}
+
+.button {
+  font-family: "Tektur";
+  font-size: 20px;
+  width: 150px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background: white;
+  color: #000;
+  transition: box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.button-container {
+  display: flex;
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.button:hover {
+  box-shadow: -5px 10px 0px rgba(158, 5, 122, 0.8);
 }
 
 @font-face {
