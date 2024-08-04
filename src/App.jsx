@@ -1,9 +1,12 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
 import cat from './assets/cat.gif';
-import me from "../public/me.jpg"
+import me from "./assets/me.jpg"
 import sudoku from "./assets/sudoku.gif";
 import ni from "./assets/ni.png";
+import crowd_surfer from "./assets/crowdsurfer.gif";
+import crossword from "./assets/crossword.gif";
+import neuroinfernce from "./assets/neuroinference.png";
 
 function App() {
   const [isVisible, setIsVisible] = useState(true);
@@ -42,16 +45,24 @@ function App() {
           <div class="row">
             <h1>Projects</h1>
             <div class="column">
-              <img src={sudoku} className='projectgif'/> 
+              <a href="https://replit.com/@Sultana2/soduku-repl" target="_blank">
+                <img src={sudoku} className='projectgif'/> 
+              </a>
               <p>Command Line Sudoku</p>
             </div>
             <div class="column">
-              <img src={sudoku} className='projectgif'/> 
-              <p>This is my second project</p>
+              <a href="https://devpost.com/software/crowd-surfer" target="_blank">
+                <img src={crowd_surfer} className='projectgif'/> 
+              </a>
+              <p>Crowd Surfers App:</p>
+              <p>View Library and Dining Hall Crowds!</p>
             </div>
             <div class="column">
-              <img src={sudoku} className='projectgif'/> 
-              <p>So many projects omg!</p>
+              <a href="https://replit.com/@Sultana2/Crossword-puzzle" target="_blank">
+                <img src={crossword} className='projectgif'/> 
+              </a>
+              <p>Command Line Crossword Puzzle</p>
+              <p>Generator & Solver</p>
             </div>
           </div>
           <div class="row">
@@ -69,6 +80,9 @@ function App() {
             </div>
             <div class="column">
               <p>Led by Dr. Baihan Lin, Neuro Inference Labs conduct interdisciplinary and collaborative research in next-generation AI, human experience and neural interfaces.</p>
+            </div>
+            <div class="column">
+            <img src={neuroinfernce} class="neuroinference"/> 
             </div>
 
           </div>
