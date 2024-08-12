@@ -1,9 +1,9 @@
 {
-  "name": "mywebsite",
+  "name": "website",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://sultanax.github.io/mywebsite/",
+  "homepage": "https://sultanax.github.io/website/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

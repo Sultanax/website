@@ -5,38 +5,6 @@
   text-align: center;
 }
 
-.animated {
-  padding-top:95px;
-  margin-bottom:60px;
-  -webkit-animation-duration: 4s;
-  animation-duration: 4s;
-  -webkit-animation-fill-mode: both;
-  animation-fill-mode: both;
-}
-
-@keyframes fadeOutUp {
-  from {
-     opacity: 1;
-     transform: translateY(0);
-  }
-  to {
-     opacity: 0;
-     transform: translateY(-100px);
-  }
-} 
-
-.fadeOutUp {
-  -webkit-animation-name: fadeOutUp;
-  animation-name: fadeOutUp;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .slideuptext {
-    animation: fadeOutUp;
-  }
-}
-
-
 #experience{
   display: flex;
   text-align: center;
